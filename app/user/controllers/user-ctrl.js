@@ -1,10 +1,9 @@
 
 export default class UserCtrl {
   constructor(UserService) {
-    'ngInject'
-    this.UserService = UserService
-    console.log('UserCtrl')
+    'ngInject';
+    this.UserService = UserService;
 
-    this.users = this.UserService.get_users()
+    this.users = this.UserService.get_users();
   }
 }

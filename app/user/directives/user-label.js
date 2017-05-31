@@ -4,5 +4,5 @@ export default function userLabel () {
     scope: {
       user: '='
     }
-  }
+  };
 }

@@ -1,7 +1,7 @@
-import AboutCtrl from './about-ctrl'
+import AboutCtrl from './about-ctrl';
 
-let mod = angular.module('app.about.controllers', [])
+let mod = angular.module('app.about.controllers', []);
 
-mod.controller('AboutCtrl', AboutCtrl)
+mod.controller('AboutCtrl', AboutCtrl);
 
-export {mod}
+export {mod};

@@ -7,7 +7,7 @@
   "rules": {
     "no-throw-literal": 1,
     "strict": 0,
-    "semi": [2, "never"],
+    "semi": [2, "always"],
     "no-var": 1,
     "eol-last": 1,
     "no-new-require": 1,

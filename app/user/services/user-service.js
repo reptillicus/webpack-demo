@@ -1,10 +1,10 @@
-import User from '../models/user.js'
+import User from '../models/user.js';
 
 export default class UserService {
 
   constructor ($http) {
-    'ngInject'
-    this.$http = $http
+    'ngInject';
+    this.$http = $http;
   }
 
   get_user(uname) {
@@ -19,11 +19,11 @@ export default class UserService {
       {name: 'Josue', email: 'josue@tacc.com'},
       {name: 'Alex', email: 'alex@tacc.com'},
       {name: 'Andrew', email: 'andrew@tacc.com'},
-    ]
+    ];
 
     users = users.map( (u)=>{
-      return new User(u.name, u.email)
-    })
-    return users
+      return new User(u.name, u.email);
+    });
+    return users;
   }
 }

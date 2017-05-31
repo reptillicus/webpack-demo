@@ -1,8 +1,8 @@
 // webpack plugins
-const webpack = require('webpack')
-const path = require('path')
-const ngAnnotatePlugin = require('ng-annotate-webpack-plugin')
-const ExtractTextPlugin = require("extract-text-webpack-plugin")
+const webpack = require('webpack');
+const path = require('path');
+const ngAnnotatePlugin = require('ng-annotate-webpack-plugin');
+const ExtractTextPlugin = require("extract-text-webpack-plugin");
 
 // const LiveReloadPlugin = require('webpack-livereload-plugin')
 
@@ -45,4 +45,4 @@ module.exports = {
   externals: {
     angular: 'angular',
   }
-}
+};

@@ -1,7 +1,7 @@
-import userLabel from './user-label'
+import userLabel from './user-label';
 
-let mod = angular.module('app.user.directives', [])
+let mod = angular.module('app.user.directives', []);
 
-mod.directive('userLabel', userLabel)
+mod.directive('userLabel', userLabel);
 
-export  {mod}
+export  {mod};

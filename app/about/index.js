@@ -1,8 +1,7 @@
-import angular from 'angular'
+import angular from 'angular';
+import {mod as about_controllers} from './controllers';
 
-import {mod as about_controllers} from './controllers'
-
-let mod = angular.module('app.about', ['app.about.controllers'])
+let mod = angular.module('app.about', ['app.about.controllers']);
 
 mod.config( ($stateProvider) => {
   $stateProvider.state('app.about', {
@@ -11,7 +10,7 @@ mod.config( ($stateProvider) => {
       controllerAs: 'vm',
       templateUrl: 'app/about/partials/about.html'
     }
-  )
-})
+  );
+});
 
-export {mod}
+export {mod};
